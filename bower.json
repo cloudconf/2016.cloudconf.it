@@ -1,0 +1,7 @@
+{
+  "name": "cloudconf-2015",
+  "version": "1.0.0",
+  "dependencies": {
+    "bootstrap": "3.2.*"
+  }
+}

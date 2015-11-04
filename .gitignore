@@ -1,0 +1,6 @@
+bower_components
+configuration.json
+build
+dist
+sources
+node_modules
