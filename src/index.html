@@ -87,7 +87,7 @@ document.createElement('video');
               </div>
               <div id="navbar" class="navbar-collapse collapse menu1 pull-right">
                 <ul class="nav navbar-nav">
-                   <li><a href="http://goo.gl/forms/bwLPpQfAKS" target="_blank" class="btn btn-lg btn-link">Call for Papers</a></li>
+                   <li><a href="http://goo.gl/forms/bwLPpQfAKS" target="_blank" class="btn btn-lg btn-link">Call for Papers (until jan 10th)</a></li>
                    <!--<li><a href="/workshop.html" class="btn btn-lg btn-link">Workshops</a></li>
                    <li><a href="/schedule.html" class="btn btn-lg btn-link">Speakers &amp; Schedule</a></li>
                    <li><a href="/sponsors.html" class="btn btn-lg btn-link">Sponsors</a></li>-->
@@ -179,7 +179,7 @@ document.createElement('video');
                     <div class="col-lg-12">
                         <a name="speakers"></a>
                             <h2 class="text-center">Speakers!</h2>
-                            <h5 class="text-center margin_15_0">5 confirmed, other <strong>15</strong> to be announced!</h5>
+                            <h5 class="text-center margin_15_0">7 confirmed, other <strong>13</strong> to be announced!</h5>
                           <!--
                             <div class="row text-center speakers">
 
@@ -225,12 +225,25 @@ document.createElement('video');
                                   <h4>Phil Leggetter <a href="https://twitter.com/leggetter" target="_blank" class="btn-link"><i class="fa fa-twitter"></i></a></h4>
                                   <h5>Head of Developer Evangelism @ <a href="http://pusher.com" target="_blank">Pusher</a></h5>
                               </div>
+                              <div class="col-lg-4 col-sm-4 speaker">
+                                  <span class="face franchini"></span>
+                                  <h4>Roberto Franchini <a href="https://twitter.com/robfrankie" target="_blank" class="btn-link"><i class="fa fa-twitter"></i></a></h4>
+                                  <h5>Senior Software Engineer @ <a href="http://orientdb.com/" target="_blank">OrientDB</a></h5>
+                              </div>
+                            </div>
+
+                            <div class="row text-center speakers margin_25_0_0">
 
 
+                              <div class="col-lg-4 col-sm-4 speaker">
+                                  <span class="face murdaca"></span>
+                                  <h4>Antonio Murdaca <a href="https://twitter.com/runc0m" target="_blank" class="btn-link"><i class="fa fa-twitter"></i></a></h4>
+                                  <h5>Associate Software Engineer @ <a href="http://www.redhat.com/" target="_blank">RedHat</a><br>(Docker Core maintainer)</h5>
+                              </div>
                                 <div class="col-lg-4 col-sm-4  speaker">
                                     <span class="face you"></span>
                                     <h4>You?</h4>
-                                    <h5>Submit your proposals <a href="http://goo.gl/forms/bwLPpQfAKS" target="_blank">here</a></h5>
+                                    <h5>Submit your proposals <a href="http://goo.gl/forms/bwLPpQfAKS" target="_blank">here</a><br><span class="text-danger">CFP ends at 10th january!</span></h5>
                                 </div>
                             </div>
                             <div class="row text-center margin_25_0">
@@ -609,6 +622,25 @@ document.createElement('video');
 			    </div>
 			  </div>
 			</div>
+     <!-- Modal DEAL-->
+			<div class="modal fade" id="dealModal-deal" role="dialog" aria-labelledby="dealModal-deal" aria-hidden="true">
+			  <div class="modal-dialog">
+			    <div class="modal-content">
+			      <div class="modal-body">
+			        <h4>Last changes for discounted tickets!</h4>
+			        <p>
+                Early Bird Ticket sells stop next wednesday!
+			       </p>
+			         <p>
+			         Get now your ticket for one of the most important europen conference on cloud computing!
+			         </p>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-primary"  data-dismiss="modal">Ok!</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
 
 
 
@@ -616,6 +648,7 @@ document.createElement('video');
     <script type="text/javascript" src="/assets/js/jquery/dist/jquery.js"></script>
     <script type="text/javascript" src="/assets/js/bootstrap/dist/js/bootstrap.js"></script>
     <script>
+    $.support.transition = false;
     $( document ).ready(function() {
 	    $( ".tomodule" ).click(function(ev) {
 	        $("html, body").animate({
@@ -694,6 +727,7 @@ document.createElement('video');
 	    		//$('#dealModal-en').modal('show');
 	    	}
 	    }
+      $('#dealModal-deal').modal();
 
 
 
@@ -711,6 +745,7 @@ document.createElement('video');
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
     ga('create', 'UA-32091906-1', 'auto');
+    ga('set', 'anonymizeIp', true);
     ga('send', 'pageview');
 
     </script>
