@@ -127,7 +127,7 @@ document.createElement('video');
 
 
                         <div class="col-lg-12 text-center">
-                            <a href="#tickets" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-lg btn-info btn2"><span class="hidden-xs">Get a </span>Ticket<span class="hidden-xs">!</span><br><strong>only 29,90 &euro;</strong></a>
+                            <a href="#tickets" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-lg btn-info btn2"><span class="hidden-xs">Get a </span>Ticket<span class="hidden-xs">!</span><br><strong>only 49,90 &euro;</strong></a>
                             <p class="promise">instead of 89,90 &euro;</p>
                             <!--<p class="promise"><strong><a href="/workshop.html" target="_blank">Cloud Workshops are now available!</a></strong></p>-->
 
@@ -180,7 +180,7 @@ document.createElement('video');
                     <div class="col-lg-12">
                         <a name="speakers"></a>
                             <h2 class="text-center">Speakers!</h2>
-                            <h5 class="text-center margin_15_0">9 confirmed, other <strong>11</strong> to be announced!</h5>
+                            <h5 class="text-center margin_15_0">11 confirmed, other <strong>9</strong> to be announced!</h5>
                           <!--
                             <div class="row text-center speakers">
 
@@ -254,8 +254,18 @@ document.createElement('video');
                             </div>
 
                             <div class="row text-center speakers margin_25_0_0">
+                              <div class="col-lg-4 col-sm-4 speaker">
+                                  <span class="face oded"></span>
+                                  <h4>Oded Coster <a href="https://twitter.com/odedcoster" target="_blank" class="btn-link"><i class="fa fa-twitter"></i></a></h4>
+                                  <h5>‎Software Engineer @ <a href="https://www.stackoverflow.com/" target="_blank">Stack Overflow</a></h5>
+                              </div>
+                              <div class="col-lg-4 col-sm-4 speaker">
+                                  <span class="face walter"></span>
+                                  <h4>Walter Dal Mut <a href="https://twitter.com/walterdalmut" target="_blank" class="btn-link"><i class="fa fa-twitter"></i></a></h4>
+                                  <h5>Solution Architect @ <a href="https://www.corleycloud.com/" target="_blank">Corley Cloud</a></h5>
+                              </div>
 
-                                <div class="col-lg-4 col-lg-offset-4 col-sm-4  speaker">
+                                <div class="col-lg-4 col-sm-4  speaker">
                                     <span class="face you"></span>
                                     <h4>The Next?</h4>
                                     <h5>Stay tuned for next announcements!</h5>
@@ -300,23 +310,23 @@ document.createElement('video');
                     <div class="col-lg-12">
                         <a name="tickets"></a>
 
-                            <h2 class="text-center">Early Bird tickets available!</h2>
-                            <h5 class="text-center">Tickets include taxes, invoice will be send to your email</h5>
+                        <h2 class="text-center">Early Bird tickets available!</h2>
+                        <h5 class="text-center">Tickets include taxes, invoice will be send to your email</h5>
+
+
+                          <p class="hidden-xs margin_25_0" style="display:none" id="modalplaceholder3over">
+                            <i>Write the promotional code <strong><span id="modalplaceholder3"></span></strong> to activate a <span class="label label-success">10 euros</span> deal!</i>
+                          </p>
+
+
                         <div class="row">
                             <div class="col-lg-12 col-sm-12">
                                 <div style="width:100%; text-align:left;" class="margin_25_0" >
                                 <iframe  src="//eventbrite.it/tickets-external?eid=19234939221&ref=etckt" frameborder="0" height="320" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
                                 </div>
                             </div>
-                          <!--
-                            <div class="col-lg-4 col-sm-4 text-center">
-                                <p><strong>Thanks to our main sponsor!</strong></p>
-                                <p><a href="http://innomatic.io" target="_blank"><img src="assets/images/sponsor/innomatic2.png"  target="_blank" class="img-responsive img-thumbnail" alt=""></a></p>
-                                <p class="hidden-xs margin_60_0_0" style="display:none" id="modalplaceholder3over">
-                                  <i>write the promotional code <strong><span id="modalplaceholder3"></span></strong> to activate a <span class="label label-success">40 euros</span> deal!</i>
-                                </p>
-                            </div>
-                          -->
+
+
                         </div>
                     </div>
                  </div>
@@ -665,7 +675,7 @@ document.createElement('video');
 			      <div class="modal-body">
 			        <h4>Lo sconto è terminato! Ma...</h4>
 			        <p>
-			        Il 18 febbraio sono terminati gli sconti. Ma abbiamo deciso di <strong>prolungarli</strong> dandoti la possibilità di comprare il biglietto a soli <strong>49,90 euro</strong> invece di 89,90.La CloudConf è un evento divulgativo nato per offrire una grande giornata all'insegna della scalabilità! Un momento di incontro dedicato a sviluppatori, devops e startup, ricco di speaker internazionali e momenti di networking.
+			        Il 13 gennaio sono terminati i biglietti super scontati. Ma abbiamo deciso di <strong>attivare un nuovo sconto di 10 euro</strong> dandoti la possibilità di comprare il biglietto a soli <strong>39,90 euro</strong> invece di 49,90. La CloudConf è un evento divulgativo nato per offrire una grande giornata all'insegna della scalabilità! Un momento di incontro dedicato a sviluppatori, devOps e startup, ricco di speaker internazionali e momenti di networking.
 			       </p>
 			         <p>
 			         Grazie alla collaborazione con <strong><span id="modalplaceholder"></span></strong> puoi sfruttare quest'occasione solo per pochi giorni! Affrettati!
@@ -794,17 +804,17 @@ document.createElement('video');
 	    		$('#modalplaceholder2').html(deal);
 	    		$('#modalplaceholder3').html(deal);
 	    		$('#modalplaceholder3over').show();
-	    		//$('#dealModal').modal('show');
+	    		$('#dealModal').modal('show');
 	    	}
 	    	else if(dealsEn[deal]) {
 	    		$('#modalplaceholder-en').html(dealsEn[deal]);
 	    		$('#modalplaceholder2-en').html(deal);
 	    		$('#modalplaceholder3').html(deal);
 	    		$('#modalplaceholder3over').show();
-	    		//$('#dealModal-en').modal('show');
+	    		$('#dealModal-en').modal('show');
 	    	}
 	    }
-      $('#dealModal-deal').modal();
+      // $('#dealModal-deal').modal();
 
 
 
