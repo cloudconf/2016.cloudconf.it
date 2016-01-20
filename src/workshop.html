@@ -44,18 +44,18 @@
 
         function initialize_map() {
           var mapOptions = {
-            zoom: 16,
-            center: new google.maps.LatLng(45.050359, 7.669564),
+            zoom: 15,
+            center: new google.maps.LatLng(45.0767682, 7.6693637),
             mapTypeId: google.maps.MapTypeId.ROADMAP,
             scrollwheel: false
           }
           var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
 
           var hotel = new google.maps.Marker({
-            position: new google.maps.LatLng(45.050359, 7.669564),
+            position: new google.maps.LatLng(45.0767682, 7.6693637),
             map: map,
             icon: 'assets/images/marker.png',
-            title:"ToolBox Torino"
+            title:"TAG Torino"
           });
 
         }
@@ -99,9 +99,9 @@ document.createElement('video');
         <div class="slogan slogan4  text-center">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2 col-md-12 col-sm-12">
-                        <h3>Venerdì 20 marzo 2016, a Torino</h3>
-                        <h2>Disponibili i biglietti prenota prima!</h2>
+                    <div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12">
+                        <h3> 9 e 11 marzo 2016, a Torino</h3>
+                        <h2>Disponibili i bglietti prenota prima!</h2>
 
                             <div class="col-lg-12 text-center">
                                 <!--
@@ -109,7 +109,7 @@ document.createElement('video');
                                 .html" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-lg btn-info btn2"><span class="hidden-xs">Disponibili i biglietti </span>Prenota Prima<br><strong>solo 89,90 &euro;</strong></a>
                                 <p class="promise">invece di 129,90 &euro;</p>
                               -->
-                                <p class="promise"><strong>tutti i workshop sono in italiano | all workshops in italian language</strong></p>
+                                <p class="promise"><strong>tutti i workshop sono in <span class="text-danger">italiano</span> | all workshops in <span class="text-danger">italian</span></strong></p>
 
                             </div>
 
@@ -117,6 +117,49 @@ document.createElement('video');
 
                     </div>
                 </div>
+
+
+
+      <div class="pricing-table pricing-three-column row">
+       <div class="plan col-sm-4 col-lg-4 plan-white">
+         <div class="plan-name-bronze">
+           <h2>9 marzo</h2>
+           <span>Workshop Day</span>
+         </div>
+         <ul>
+           <li class="plan-feature">#1: PHP &amp; Cloud</li>
+           <li class="plan-feature">#2: Amazon Web Services</li>
+           <li class="plan-feature"><a href="#tickets" class="btn btn-info btn-plan-select"><i class="icon-white icon-ok"></i> Prenota un posto</a></li>
+         </ul>
+       </div>
+       <div style="z-index:55;" class="plan col-sm-4 col-lg-4">
+         <div class="plan-name-silver">
+           <h2>10 marzo<!--<span class="badge badge-warning">Popular</span>--></h2>
+           <span>CloudConf IV edizione</span>
+         </div>
+         <ul>
+           <li class="plan-feature">20 relatori internazionali</li>
+           <li class="plan-feature">500 partecipanti</li>
+           <li class="plan-feature"><a href="/index.html" target="_blank" class="btn btn-success btn-plan-select"><i class="icon-white icon-ok"></i> Biglietti</a></li>
+         </ul>
+       </div>
+       <div class="plan col-sm-4 col-lg-4  plan-white">
+         <div class="plan-name-gold">
+           <h2>11 marzo</h2>
+           <span>Workshop Day</span>
+         </div>
+         <ul>
+           <li class="plan-feature">#3: Serverless</li>
+           <li class="plan-feature">#4: Docker</li>
+           <li class="plan-feature"><a href="#tickets" class="btn btn-info btn-plan-select"><i class="icon-white icon-ok"></i> Prenota un posto</a></li>
+         </ul>
+       </div>
+   </div>
+
+
+
+
+
             </div>
         </div>
 
@@ -125,15 +168,15 @@ document.createElement('video');
               <div class="col-lg-4">
                 <h3>Workshop</h3>
                 <p>
-                  <strong>Quattro</strong> diverse tracce su tematiche differenti per una giornata di workshop di alto livello ad un costo contenuto.
-                  I workshop si terranno il giorno successivo la CloudConf presso uno dei più grandi e rinmati coworking center d'Italia, e sono dedicati a <strong>sviluppatori e sistemisti</strong>.
+                  <strong>Quattro</strong> workshop di alto livello ad un costo contenuto per due giornate all'insegna della formazione e del networking.
+                  I workshop si terranno il giorno precedente e successivo la CloudConf presso il TAG Torino, in pieno centro città e comodo ai mezzi, e sono dedicati a <strong>sviluppatori e sistemisti</strong>.
                 </p>
               </div>
               <div class="col-lg-4">
                 <h3>La conferenza</h3>
                 <p>
-                  I workshop sono una delle tante novità della <strong>CloudConf 2016</strong>, che giunge alla terza edizione dopo due sold-out.
-                  La conferenza, che si terrà il 19 marzo a Torino, propone una scaletta di interventi d'eccezione per una giornata all'insegna della scalabilità. I <a href="http://2016.cloudconf.it">biglietti</a> sono disponibili!
+                  I workshop sono ormai una tradizione della  <strong>CloudConf</strong>, che giunge alla quarta edizione dopo tre sold-out consecutivi.
+                  La conferenza, che si terrà il 10 marzo a Torino, propone una scaletta di interventi d'eccezione per una giornata all'insegna della scalabilità. I <a href="http://2016.cloudconf.it">biglietti</a> sono disponibili!
                 </p>
               </div>
               <div class="col-lg-4">
@@ -141,7 +184,7 @@ document.createElement('video');
                     <ul>
                       <li>Workshop da professionisti del settore</li>
                       <li>Posti limitati ed approccio 1-to-1</li>
-                      <li>Sale attrezzate nel Toolbox Coworking</li>
+                      <li>Sale attrezzate nel TAG di Torino</li>
                       <li>Prezzo concorrenziale</li>
                       <li>Attestato di partecipazione</li>
                     </ul>
@@ -159,21 +202,21 @@ document.createElement('video');
                   <div class="col-lg-10">
                     <p>Workshop #1:</p>
                     <h3>
-                      PHP &amp; Cloud: sviluppo API e scalabilità
+                      PHP &amp; Cloud: sviluppo e scalabilità
                     </h3>
                     <p class="intro">
                       Durante il workshop verrà costruita una classica applicazione LAMP e attiveremo i servizi di scalabilità automatica di Amazon Web Services per adattare la risposta della nostra applicazione su carichi crescenti e decrescenti.
                     </p>
                     <div class="row text-center speakers margin_20_0">
-                        <div class="col-lg-5 speaker">
-                            <span class="face enrico"></span>
-                            <h4>Enrico Zimuel <a href="http://twitter.com/ezimuel" target="_blank" class="btn-link"><i class="fa fa-twitter"></i></a></h4>
-                            <h5>Senior Software Engineer <br> <a href="http://www.zend.com">Zend Technologies</a></h5>
-                        </div>
-                        <div class="col-lg-5 speaker">
+
+                        <div class="col-lg-12 speaker">
                             <span class="face walter"></span>
                             <h4>Walter Dal Mut <a href="http://twitter.com/walterdalmut" target="_blank" class="btn-link"><i class="fa fa-twitter"></i></a></h4>
-                             <h5>Solution Architect <br> <a href="http://www.corley.it">Corley Cloud</a></h5>
+                             <h5>Solution Architect <br> <a href="http://www.corley.it">Corley Cloud</a><br><br>
+                             Zend Framework Certified Engineer<br>
+                             AWS Solution Architect Certified<br>
+                             AWS SysOps Certified<br>
+                             </h5>
 
                         </div>
                     </div>
@@ -207,16 +250,16 @@ document.createElement('video');
                       </td>
                       <td class="topic">
                         <p>
-                            <strong>Creare nuovi webservice in PHP</strong><br>
-                            Introduzione ai servizi RPC, REST e RESTful e alle infrastrutture SOA al versioning delle API e la gestione dei servizi web.
+                            <strong>Introduzione alla scalabilità con PHP</strong><br>
+                            Teoria e strategie per la progettazione di applicazioni scalabili con PHP.
                         </p>
                         <p>
-                          <strong>Sviluppo API in PHP con Apigility</strong><br>
-                          Problemi comuni, soluzioni e best practice nella progettazione e realizzazione API grazie ad Apigility.
+                            <strong>I componenti PHP per il Cloud</strong><br>
+                            Introduzione alla scalabilità dei PHP attraverso componenti chiave come Composer, LibMemcached...
                         </p>
                         <p>
-                          <strong>Deploy in produzione</strong><br>
-                          Portare la nostra applicazione in produzione grazie al supporto Zend Server.
+                          <strong>API scalabili con PHP</strong><br>
+                          Strategie e componenti per lo sviluppo di microservizi e API in PHP.
                         </p>
                       </td>
                     </tr>
@@ -238,7 +281,7 @@ document.createElement('video');
                           Come scalano le basi di dati relazionali e come sfruttare il servizio managed di AWS RDS per i nostri database.
                         </p>
                         <p>
-                          <strong>Scalabilità automatica delle applicazioni PHP</strong><br>
+                          <strong>Deploy e scalabilità automatica della nostra app PHP</strong><br>
                           Utilizziamo il servizio Elastic Beanstalk di Amazon Web Services per far scalare automaticamente ed in modo trasparente le
                           nostre API precedentemente sviluppate.
                         </p>
@@ -262,113 +305,6 @@ document.createElement('video');
             </div>
 
 
-            <!-- workshop 2 ANGULAR -->
-              <a name="angular" class="margin_50_0"> </a>
-            <div class="row margin_100_0_0 space-danger">
-              <div class="col-lg-6 margin_25_0 workshop">
-                <div class="row">
-                  <div class="col-lg-2">
-                    <span type="button" class="btn btn-danger btn-circle btn-xl"><i class="fa fa-mortar-board"></i></span>
-                  </div>
-                  <div class="col-lg-10">
-                    <p>Workshop #2:</p>
-                    <h3>
-                      Realizzare applicazioni moderne con AngularJS
-                    </h3>
-                    <p class="intro">
-                      Workshop focalizzato sul framework JavaScript di Google. Una giornata alla scoperta di AngularJS, dalle caratteristiche principali fino all'utilizo specifico di ogni componente.
-                    </p>
-                    <div class="row text-center speakers margin_20_0">
-                        <div class="col-lg-3">&nbsp;</div>
-                        <div class="col-lg-6 speaker">
-                            <span class="face gianluca"></span>
-                            <h4>Gianluca Arbezzano <a href="http://twitter.com/gianarb" target="_blank" class="btn-link"><i class="fa fa-twitter"></i></a></h4>
-                             <h5>Frontend Developer <br> <a href="http://www.corley.it">Corley Cloud</a></h5>
-                        </div>
-                    </div>
-                    <p>
-                      <strong>A chi è rivolto?</strong>: sviluppatori con una discreta conoscenza di JavaScript (utilizzo di Git e NPM)
-                    </p>
-                    <p>
-                      <strong>Cosa comprende</strong>:  corso di 8 ore con coffee break, materiale didattico, connettività Wi-Fi, attestato di partecipazione
-                    </p>
-                    <p>
-                      Ai partecipanti sono richiesti puntualità, spirito di condivisione e un portatile per seguire i laboratori pratici.
-                    </p>
-                    <p><a href="#tickets" class="btn btn-default">Prenota un posto</a></p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6 margin_60_0">
-                <table class="table table-bordered">
-                  <tbody>
-                    <tr class="low">
-                      <td class="hour">
-                        09:00-09:30
-                      </td>
-                      <td class="topic">
-                        <strong>Registrazione partecipanti e presentazione</strong>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="hour">
-                        09:30-13:00
-                      </td>
-                      <td class="topic">
-                        <p>
-                          <strong>Introduzione ad AngularJS</strong><br>
-                          Presentazione del framework e primi passi
-                        </p>
-                        <p>
-                          <strong>Progettazione con AngularJS</strong><br>
-                          Con laboratorio pratico per la creazione della nostra applicazione e gestione delle dipendenze (Bower)
-                        </p>
-                        <p>
-                          <strong>Scope, controller e filtri</strong><br>
-                          Coding sull'app con utilizzo di $scope e scrittura del nostro primo controller. Gestione dei template e utilizzo dei filtri.
-                        </p>
-                      </td>
-                    </tr>
-                    <tr class="low">
-                      <td class="hour">
-                        13:00-14:00
-                      </td>
-                      <td class="topic">
-                        <strong>Pausa pranzo</strong>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="hour">
-                        14:00-17:30
-                      </td>
-                      <td class="topic">
-                        <p>
-                          <strong>Direttive, service e routing</strong><br>
-                          Creazione e utilizzo di componenti avanzate (Directive, Service, strategie di routing dell'app)
-                        </p>
-                        <p>
-                          <strong>RESTful integration</strong><br>
-                          Come interagine con risorse rest con $http e integrazione backend
-                        </p>
-                        <p>
-                          <strong>Deploy e strategie avanzate</strong><br>
-                          Completamento della nostra applicaione ed gestione del deploy con Grunt
-                        </p>
-                      </td>
-                    </tr>
-                    <tr class="low">
-                      <td class="hour">
-                        17:30-18:00
-                      </td>
-                      <td class="topic">
-                        <strong>Chiusura corso e confronto con i partecipanti</strong>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-
 
             <!-- workshop 3 AWS -->
             <a name="aws" class="margin_50_0"> </a>
@@ -379,7 +315,7 @@ document.createElement('video');
                     <span type="button" class="btn btn-warning btn-circle btn-xl"><i class="fa fa-mortar-board"></i></span>
                   </div>
                   <div class="col-lg-10">
-                    <p>Workshop #3:</p>
+                    <p>Workshop #2:</p>
                     <h3>
                       Cloud Computing per applicazioni web con Amazon Web Services
                     </h3>
@@ -478,93 +414,235 @@ document.createElement('video');
             </div>
 
 
-            <!-- workshop 4 SALTSTACK -->
-            <a name="saltstack" class="margin_50_0"> </a>
-            <div class="row margin_100_0_0 space-info">
-              <div class="col-lg-6 margin_25_0 workshop">
-                <div class="row">
-                  <div class="col-lg-2">
-                    <span type="button" class="btn btn-info btn-circle btn-xl"><i class="fa fa-mortar-board"></i></span>
-                  </div>
-                  <div class="col-lg-10">
-                    <p>Workshop #4:</p>
-                    <h3>
-                      Provisioning &amp; Orchestration con Saltstack
-                    </h3>
-                    <p class="intro">
-                        Durante il workshop verrà progettata e costruita un'infrastruttura web scalabile orientata a servizio
-                        grazie a SaltStack che sia portabile in modo trasparente su Amazon Web Services e Digitalocean.
-                    </p>
-                    <div class="row text-center speakers margin_20_0">
-                        <div class="col-lg-3">&nbsp;</div>
-                        <div class="col-lg-5 speaker">
-                            <span class="face walter walter2"></span>
-                            <h4>Walter Dal Mut <a href="http://twitter.com/walterdalmut" target="_blank" class="btn-link"><i class="fa fa-twitter"></i></a></h4>
-                             <h5>Solution Architect <br> <a href="http://www.corley.it">Corley Cloud</a></h5>
-                        </div>
-                    </div>
-                    <p>
-                      <strong>A chi è rivolto?</strong>: sistemisti DevOps con conoscenza delle infrastrutture e delle reti a servizio.
-                    </p>
-                    <p>
-                      <strong>Cosa comprende</strong>:  corso di 4 ore con coffee break, materiale didattico, connettività Wi-Fi, attestato di partecipazione
-                    </p>
-                    <p>
-                      Ai partecipanti sono richiesti puntualità, spirito di condivisione e un portatile per seguire i laboratori pratici.
-                    </p>
-                    <p><a href="#tickets" class="btn btn-default">Prenota un posto</a></p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6 margin_60_0">
-                <table class="table table-bordered">
-                  <tbody>
-                    <tr class="low">
-                      <td class="hour">
-                        09:00-09:30
-                      </td>
-                      <td class="topic">
-                        <strong>Registrazione partecipanti e presentazione</strong>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="hour">
-                        09:30-13:00
-                      </td>
-                      <td class="topic">
-                        <p>
-                          <strong>Orchestrare servizi sul Cloud Computing tramite SaltStack</strong><br>
-                          Il Cloud Computing permette di attivare e gestire diverse istanze in pochi secondi ma senza la
-                          possibilità di automatizzare la creazione/configurazione di diversi nodi il tutto appare poco
-                          coeso ed accessibile! Il problema dell'orchestration e del mantenimento/documentazione delle
-                          infrastrutture.
-                        </p>
-                        <p>
-                          <strong>Usare SaltStack sul Cloud</strong><br>
-                          SaltStack e SaltCloud per i nostri servizi e la nostra infrastruttura di riferimento. I moduli,
-                          pillars, grains e mines per la gestione e organizzazione di tutti i nostri servizi sul Cloud scelto
-                          come DigitalOcean o Amazon Web Services.
-                        </p>
-                        <p>
-                          <strong>Usare i ruoli per l'infrastruttura</strong><br>
-                          SaltStack offre un ampio supporto per la gestione dell'infrastruttura tramite i ruoli per poter
-                          accorpare/separare servizi e semplificare molto la gestione e la crescita della nostra infrastruttura.
-                        </p>
-                      </td>
-                    </tr>
 
-                    <tr class="low">
-                      <td class="hour">
-                        13:00-13:30
-                      </td>
-                      <td class="topic">
-                        <strong>Chiusura corso e confronto con i partecipanti</strong>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+
+      <!-- workshop 3 DOCKER -->
+      <a name="php" class="margin_50_0"> </a>
+      <div class="row margin_75_0 space-info">
+        <div class="col-lg-6 margin_25_0 workshop">
+          <div class="row">
+            <div class="col-lg-2">
+              <span type="button" class="btn  btn-info btn-circle btn-xl"><i class="fa fa-mortar-board"></i></span>
             </div>
+            <div class="col-lg-10">
+              <p>Workshop #3:</p>
+              <h3>
+                Docker: Build, Ship, Run
+              </h3>
+              <p class="intro">
+                Sessione dedicata al famoso tool di deploy in container isolati particolarmente indicato nello sviluppo e mantenimento di applicazioni in Cloud.
+              </p>
+              <div class="row text-center speakers margin_20_0">
+
+                  <div class="col-lg-12 speaker">
+                      <span class="face walter walter2"></span>
+                      <h4>Walter Dal Mut <a href="http://twitter.com/walterdalmut" target="_blank" class="btn-link"><i class="fa fa-twitter"></i></a></h4>
+                       <h5>Solution Architect <br> <a href="http://www.corley.it">Corley Cloud</a><br><br>
+                       Zend Framework Certified Engineer<br>
+                       AWS Solution Architect Certified<br>
+                       AWS SysOps Certified<br>
+                       </h5>
+
+                  </div>
+              </div>
+              <p>
+                <strong>A chi è rivolto?</strong>: sviluppatori e sistemisti che vogliono ottimizzare i processi di sviluppo e di deploy
+              </p>
+              <p>
+                <strong>Cosa comprende</strong>:  corso di 8 ore con coffee break, materiale didattico, connettività Wi-Fi, attestato di partecipazione
+              </p>
+              <p>
+                Ai partecipanti sono richiesti puntualità, spirito di condivisione e un portatile per seguire i laboratori pratici.
+              </p>
+              <p><a href="#tickets" class="btn btn-default">Prenota un posto</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 margin_60_0">
+          <table class="table table-bordered">
+            <tbody>
+              <tr class="low">
+                <td class="hour">
+                  09:00-09:30
+                </td>
+                <td class="topic">
+                  <strong>Registrazione partecipanti e presentazione</strong>
+                </td>
+              </tr>
+              <tr>
+                <td class="hour">
+                  09:30-13:00
+                </td>
+                <td class="topic">
+                  <p>
+                    <strong>Introduzione ai container</strong><br>
+                    Introduzione a Docker e alla gestione dei container.
+
+                  </p>
+                  <p>
+                    <strong>Setup e configurazione</strong><br>
+                    Predisposizione dei tool necessari per cominciare a lavorare con Docker (e Docker Machine per ambienti Win e Mac).
+                  </p>
+                  <p>
+                    <strong>Ogni servizio un container</strong><br>
+                    Utilizzare Docker Compose per costruire un ambiente di sviluppo multi container.
+                  </p>
+                </td>
+              </tr>
+              <tr class="low">
+                <td class="hour">
+                  13:00-14:00
+                </td>
+                <td class="topic">
+                  <strong>Pausa pranzo</strong>
+                </td>
+              </tr>
+              <tr>
+                <td class="hour">
+                  14:00-17:30
+                </td>
+                <td class="topic">
+                  <p>
+                    <strong>Autobuild dei container</strong><br>
+                    Collegare il codice di preparazione del tuo container al meccanismo di continuous delivery.
+                  </p>
+                  <p>
+                    <strong>Deploy con Amazon ECS</strong><br>
+                    Sfruttare il servizio di Elastic Container Service per il deploy della nostra applicazione.
+                  </p>
+                  <p>
+                    <strong>Docker Swarm</strong><br>
+                    Introduzione a tool avanzati per la gestione di un cluster di container.
+                  </p>
+                </td>
+              </tr>
+              <tr class="low">
+                <td class="hour">
+                  17:30-18:00
+                </td>
+                <td class="topic">
+                  <strong>Chiusura corso e confronto con i partecipanti</strong>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+
+
+
+      <!-- workshop 3 DOCKER -->
+      <a name="php" class="margin_50_0"> </a>
+      <div class="row margin_75_0 space-danger">
+        <div class="col-lg-6 margin_25_0 workshop">
+          <div class="row">
+            <div class="col-lg-2">
+              <span type="button" class="btn  btn-danger btn-circle btn-xl"><i class="fa fa-mortar-board"></i></span>
+            </div>
+            <div class="col-lg-10">
+              <p>Workshop #4:</p>
+              <h3>
+                Serverless: tutta la potenza nel client
+              </h3>
+              <p class="intro">
+                La nuova frontiera dello sviluppo: strategie e servizi che permettono alla nostra applicazione di comunicare direttamente con il cloud (interrogare un database scalabile, eseguire una funzione remota, comunicare in realtime con altri client) senza dover gestire o mantenere un backend.
+              </p>
+              <div class="row text-center speakers margin_20_0">
+                  <div class="col-lg-3">&nbsp;</div>
+                  <div class="col-lg-5 speaker">
+                      <span class="face gabriele gabriele2"></span>
+                      <h4>Gabriele Mittica <a href="http://twitter.com/gabrielemittica" target="_blank" class="btn-link"><i class="fa fa-twitter"></i></a></h4>
+                       <h5>Cloud Developer <br> <a href="http://www.corley.it">Corley Cloud</a></h5>
+                  </div>
+              </div>
+              <p>
+                <strong>A chi è rivolto?</strong>: sviluppatori e startup interessati a servizi scalabili e facili da gestire e integrare
+              </p>
+              <p>
+                <strong>Cosa comprende</strong>:  corso di 8 ore con coffee break, materiale didattico, connettività Wi-Fi, attestato di partecipazione
+              </p>
+              <p>
+                Ai partecipanti sono richiesti puntualità, spirito di condivisione e un portatile per seguire i laboratori pratici.
+              </p>
+              <p><a href="#tickets" class="btn btn-default">Prenota un posto</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 margin_60_0">
+          <table class="table table-bordered">
+            <tbody>
+              <tr class="low">
+                <td class="hour">
+                  09:00-09:30
+                </td>
+                <td class="topic">
+                  <strong>Registrazione partecipanti e presentazione</strong>
+                </td>
+              </tr>
+              <tr>
+                <td class="hour">
+                  09:30-13:00
+                </td>
+                <td class="topic">
+                  <p>
+                    <strong>Introduzione ai concetti Serverless</strong><br>
+                    Presentazione dei servizi che ci consentiranno di costruire applicazioni scalabili indipendenti dal backend.
+                  </p>
+                  <p>
+                    <strong>Amazon Cognito</strong><br>
+                    Come gestire l'identità dei nostri utenti e proteggere i loro dati direttamente dal client senza intermediari.
+                  </p>
+                  <p>
+                    <strong>Database in Cloud</strong><br>
+                    Scopriamo quali servizi ci permettono di creare e utilizzare una base di dati scalabile senza gestirne la componente server.
+                  </p>
+                </td>
+              </tr>
+              <tr class="low">
+                <td class="hour">
+                  13:00-14:00
+                </td>
+                <td class="topic">
+                  <strong>Pausa pranzo</strong>
+                </td>
+              </tr>
+              <tr>
+                <td class="hour">
+                  14:00-17:30
+                </td>
+                <td class="topic">
+                  <p>
+                    <strong>Microfunzioni scalabili senza backend</strong><br>
+                    Creiamo e utilizziamo microservizi direttamente dal nostro client, sia esso una applicazione mobile che una pagina web.
+                  </p>
+                  <p>
+                    <strong>Comunicazione realtime</strong><br>
+                    Scopriamo come far comunicare client e device con strumenti e tool cloud based.
+                  </p>
+                  <p>
+                    <strong>IoT e Cloud</strong><br>
+                    Come l'Internet delle cose può comunicare e interagire direttamente con il Cloud senza appoggiarsi ad un backend.
+                  </p>
+                </td>
+              </tr>
+              <tr class="low">
+                <td class="hour">
+                  17:30-18:00
+                </td>
+                <td class="topic">
+                  <strong>Chiusura corso e confronto con i partecipanti</strong>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+
+
+
+
 
 
 
@@ -572,7 +650,7 @@ document.createElement('video');
             <div class="row margin_50_0" id="tickets">
               <div class="col-lg-12 margin_25_0">
                 <a name="tickets"></a>
-                <h2 class="text-center">Posti limitati <strong>a soli 89,90 &euro;</strong> invece di 129,00 &euro;!</h2>
+                <h2 class="text-center">Posti limitati <strong>a soli 89,90 &euro;</strong> invece di 159,00 &euro;!</h2>
                 <h5 class="text-center">Prezzi iva inclusa, al pagamento verrà corrisposta regolare fattura</h5>
 
                 <div style="width:100%; text-align:left;" class="margin_25_0" >
@@ -588,7 +666,7 @@ document.createElement('video');
             <div class="row margin_75_0">
               <div class="col-lg-12">
                 <h3 class="text-center">Location</h3>
-                <h5 class="text-center">I workshop si terranno al Toolbox Coworking di Torino, comodamente raggiungibile in metro!</h5>
+                <h5 class="text-center">I workshop si terranno al Talent Garden di Torino, comodamente raggiungibile in metro e in treno, in pieno centro!</h5>
                 <div class="row">
                   <div class="col-lg-6 margin_15_0">
                     <div id="map_canvas"></div>
@@ -602,20 +680,26 @@ document.createElement('video');
                 <div class="row">
                   <div class="col-lg-12">
                     <p>
-                      <strong>TOOLBOX Office</strong>, via Agostino da Montefeltro 2, 10134, Torino
+                      <strong>TAG Torino</strong>, Via Carlo Allioni 3, Torino
                     </p>
 
                     <p>
                       <strong>In Auto</strong><br>
-                      Dall'autostrada, seguire le indicazioni per il centro e l'ospedale Molinette (sul navigatore potete cercare via Agostino da Montefeltro 2)
+                      Dall'autostrada, seguire le indicazioni per il centro. Le zone limitrofe sono a pagamento (presso tabaccai ed edicole sono disponibili i voucher giornalieri al costo di 10 &euro;)
                     </p>
 
                     <p>
-                      <strong>In Treno e Aereo</strong><br>
+                      <strong>Treno, Metro e Aereo</strong><br>
 
-                      Trenitalia e ItaloTreno con provenienza Milano e nord Italia fermano alla Stazione di Porta Susa e Torino Porta Nuova: da entrambe le stazioni prendere la metropolitana interrata in direzione Lingotto e scendere alla Fermata Dante.<br>
+                      La fermata della metropolitana "XVII Dicembre" dista meno di 5 minuti a piedi.<br>
 
-                      Da Caselle Aeroporto: prendere la navetta che ferma alla Stazione di Porta Susa, da li preoseguire in metropolitana fino alla fermata Dante.
+                      Tutti i treni (alta velocità e non) fermano a Porta Susa o Porta Nuova: nel primo caso il TAG è raggiungibile a piedi in 5 minuti. Da Porta Nuova prendere la metropolitana fino a piazza XVII Dicembre<br>
+
+                      Da Caselle Aeroporto: prendere la navetta che ferma alla Stazione di Porta Susa, da li preoseguire a piedi fino a via Allioni 3.
+                    </p>
+                    <p>
+                      <strong>Tobike</strong><br>
+                      In piazza Statuto, a 30 metri dal TAG, è presente una stazione di deposito/recupero biciblette Tobike.
                     </p>
 
                   </div>

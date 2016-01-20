@@ -692,8 +692,8 @@ h1, h2, h3 {
 }
 .location {
   height:300px;
-  border:5px solid @brand-success;
-  background-image: url('images/workshop-location.jpg');
+  border:5px solid #ee7660;
+  background-image: url('images/workshop-location.jpg?r=1');
   background-repeat:no-repeat;
   background-size:cover;
 }
@@ -886,6 +886,115 @@ h1, h2, h3 {
     border-color:@brand-warning;
 }
 
+
+
+/** WORKSHOP START */
+
+
+.pricing-table .plan {
+  margin-left:0px;
+  border-radius: 0px;
+  text-align: center;
+  background-color: transparent;
+}
+
+
+.plan {
+  padding: 20px;
+  margin-left:0px;
+  background-color: #5e5f59;
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+}
+.plan h2 {
+  color:#fff;
+}
+
+.plan-name-bronze {
+  padding: 20px;
+  color: #fff;
+  background-color: @brand-info;
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+ }
+
+.plan-name-silver {
+  padding: 20px;
+  color: #fff;
+  background-color: @brand-success;
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+ }
+
+.plan-name-gold {
+  padding: 20px;
+  color: #fff;
+  background-color:  @brand-info;;
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+  }
+
+.pricing-table-bronze  {
+  padding: 20px;
+  color: #fff;
+  background-color: #f89406;
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+}
+
+.pricing-table .plan .plan-name span {
+  font-size: 20px;
+}
+
+.pricing-table .plan ul {
+  list-style: none;
+  margin: 0;
+  -moz-border-radius: 0 0 5px 5px;
+  -webkit-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+}
+
+.pricing-table .plan ul li.plan-feature {
+  padding: 15px 10px;
+  border-top: 1px solid #c5c8c0;
+  margin-right: 35px;
+}
+
+.pricing-three-column {
+  margin: 0 auto;
+  margin-top:30px;
+  width: 80%;
+}
+
+.pricing-variable-height .plan {
+  float: none;
+  margin-left: 2%;
+  vertical-align: bottom;
+  display: inline-block;
+  zoom:1;
+  *display:inline;
+}
+
+.plan-mouseover .plan-name {
+  //background-color: #4e9a06 !important;
+}
+
+.pricing-table .plan-white {
+  background-color: #fff;
+  box-shadow:0px -4px 4px #acacac;
+}
+.btn-plan-select {
+  padding: 8px 25px;
+  font-size: 18px;
+}
+
+
+
 .workshop .enrico,
 .workshop .walter
  {
@@ -899,6 +1008,9 @@ h1, h2, h3 {
 }
 .workshop .walter2 {
     border-color:@brand-info;
+}
+.workshop .gabriele2 {
+    border-color:@brand-danger;
 }
 .you {
     background-image: url('images/you.png');
