@@ -88,7 +88,7 @@ module.exports = function (grunt) {
       development_index_html: {
         files: [
           {
-            src: ['./**/*.html'],
+            src: ['./**/*.html', './**/*.json'],
             dest: 'build/',
             cwd: './src',
             expand: true
