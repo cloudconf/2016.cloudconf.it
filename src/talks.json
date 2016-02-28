@@ -201,7 +201,7 @@
       "avatar": "http://2016.cloudconf.it/assets/images/speaker-vincenzo.jpg",
       "twitter": ""
     },
-    "description": "Prototyping an electronic board around the ESP12 module for IOT Applications over the WiFi technology.<br><br>Thanks to the LUA scripting language and ESP12 we can create a "custom thing" that communicate over <strong>MQTT with our cloud infrastructure</strong>."
+    "description": "Prototyping an electronic board around the ESP12 module for IOT Applications over the WiFi technology.<br><br>Thanks to the LUA scripting language and ESP12 we can create a <i>custom thing</i> that communicate over <strong>MQTT with our cloud infrastructure</strong>."
   },
   {
     "id": 2018,
