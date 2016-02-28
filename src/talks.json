@@ -6,7 +6,7 @@
     "where": "Room 500",
     "author": {
       "name": "Sven Peters",
-      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-sven.jpg",
       "twitter": "svenpet"
     },
     "description": "When we talk about automation in software development, we immediately think of automated builds and deployments.  We may also be using scripts to help make our daily work easier. But this is really just the beginning of the rise of the machines.<br><br>I show you how leading developers in our industry are using <strong>open source and commercial tools for automating</strong> much more: "robots" for monitoring production servers, updating issues, supporting customers, reviewing code, setting up laptops..."
@@ -18,7 +18,7 @@
     "where": "Room 500",
     "author": {
       "name": "Danilo Poccia",
-      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-danilo.jpg",
       "twitter": "danilop"
     },
     "description": "We built event-driven user interfaces for decades. What about bringing the same approach to mobile, web, and IoT backend applications? You have to understand how data flows and what is the propagation of changes, using reactive programming techniques. You can focus on the core functionalities to build and the relationships among the resources you use. Your application behaves similarly to a “spreadsheet”, where depending resources are updated automatically when something “happens”, and is decomposed into <strong>scalable microservices without having to manage the infrastructure</strong>.<br><br>The resulting architecture is efficient and cost effective to run on AWS and managing availability, scalability and security becomes part of the implementation itself."
@@ -30,7 +30,7 @@
     "where": "Room 500",
     "author": {
       "name": "Aanand Prasad",
-      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-aanand.jpg",
       "twitter": "AanandPrasad"
     },
     "description": "Computers have been shrinking and multiplying in number for decades now, and with this change has come an accompanying increase in the architectural complexity of both infrastructure and the software which runs on it. This is silly: a computer is just a thing for running processes, and there should be little to no cognitive switching whether you’re running something on a single laptop or a thousand globally-distributed machines.<br><br>I’m going to show you how <strong>container technology</strong> and open-source software is rapidly closing this gap, moving us toward a world where the Internet is just another computer - a ridiculously big one."
@@ -42,7 +42,7 @@
     "where": "Room 500",
     "author": {
       "name": "Alexis Moussine-Pouchkine",
-      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-alexis.jpg",
       "twitter": "alexismp"
     },
     "description": "With everything that the Cloud has to offer nowadays it's really never been more exciting to be a developer.
@@ -56,7 +56,7 @@ Really, there's never been a better time to be a developer!"
     "where": "Room 500",
     "author": {
       "name": "Alexander Reelsen",
-      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-alexander.jpg",
       "twitter": "spinscale"
     },
     "description": "The Elastic stack consisting of Elasticsearch, Logstash, Kibana and Beats offers easy-to-use components to ingest, parse, analyze and visualize your data.<br><br>In this talk we will focus on the aspect of log files, and in addition to the already known capabilities of the ELK stack new features in Elasticsearch <strong>simplifying your logging life</strong> and the relatively new Beats and their respective implementations will be covered as well."
@@ -68,7 +68,7 @@ Really, there's never been a better time to be a developer!"
     "where": "Room ",
     "author": {
       "name": "Marco Cedaro",
-      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-cedaro.jpg",
       "twitter": "cedmax"
     },
     "description": "The cloud changed the way we think about our services, how we scale them, how we deploy them. But what happens when there isn't one? Is your web client ready to deal with a down or a loss of connectivity?
@@ -81,7 +81,7 @@ Really, there's never been a better time to be a developer!"
     "where": "Room ",
     "author": {
       "name": "Mauro Servienti",
-      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-mauro.jpg",
       "twitter": "mauroservienti"
     },
     "description": "One of the options on the table when implementing a Service Oriented Architecture (SOA) is based on messages and an enterprise service bus (ESB), this talk will introduce messaging basic concepts, drive you through the basic <strong>SOA building blocks</strong>, and will connect the dots between the technology and the architectural principles, analyzing advantages and issues we may face when choosing this option."
@@ -93,7 +93,7 @@ Really, there's never been a better time to be a developer!"
     "where": "Room ",
     "author": {
       "name": "Max Amordeluso",
-      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-amordeluso.jpg",
       "twitter": "maxamorde"
     },
     "description": "Connecting physical devices to the cloud can enhance the user experience. AWS IoT is a new managed service that enables Internet-connected things (sensors, actuators, devices, and applications) to easily and securely interact with each other and the cloud.<br><br>In this session, we will discuss how constrained devices can send data to the cloud and receive commands back to the device. Devices can securely connect using <strong>MQTT, HTTP, Websockets protocols</strong> and developers can leverage several features of AWS IoT such as the Rules Engine and Thing Shadows to quickly and easily build a real connected product."
@@ -105,7 +105,7 @@ Really, there's never been a better time to be a developer!"
     "where": "Room ",
     "author": {
       "name": "Alessio Rocchi",
-      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-rocchi.jpg",
       "twitter": "alessiorocchi"
     },
     "description": "If we talk about continuous integration and deployment automation, we can consider Vagrant as a good option in order to automate the CI build process, create a virtual environment which run tests suite and build after having made changes.
@@ -119,7 +119,7 @@ Really, there's never been a better time to be a developer!"
     "where": "Room ",
     "author": {
       "name": "Oded Coster",
-      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-oded.png",
       "twitter": "odedcoster"
     },
     "description": "Stack Overflow serves nearly 100 million unique visitors a month, serving a page in 40ms using 9 web servers and 2 database servers.<br><br>In this talk I will cover <strong>how we develop, build, configure, deploy, monitor and maintain</strong> the site."
@@ -131,7 +131,7 @@ Really, there's never been a better time to be a developer!"
     "where": "Room ",
     "author": {
       "name": "Francesco Ficili",
-      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-francesco.jpg",
       "twitter": ""
     },
     "description": "The natural evolution of technology is to put the connectivity inside things, so that in the future will be possible to access basically everything from the network.<br><br>But all this power is useless if  not supported by an equally accessible development technology. So let's discover how a graphically oriented enviroment could be used to make it <strong>easy to develop the embedded side of an IoT application</strong>."
@@ -143,7 +143,7 @@ Really, there's never been a better time to be a developer!"
     "where": "Room ",
     "author": {
       "name": "Phil Leggetter",
-      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-phil.jpg",
       "twitter": "leggetter"
     },
     "description": "Real-time is becoming the lifeblood of applications. Facebook, Twitter, Uber, Google Docs and many more apps have increased user expectation to demand real-time features. Features such as Notifications, activity streams, real-time data visualisations, chat or collaborative experiences instantly keep users up to date and enable them to work much more effectively. So, how do you build these sorts of features with PHP and PHP frameworks?
@@ -158,7 +158,7 @@ Really, there's never been a better time to be a developer!"
     "where": "Room ",
     "author": {
       "name": "Danilo Poccia",
-      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-danilo.jpg",
       "twitter": "danilop"
     },
     "description": "Data analysis is being used to transform businesses, increase efficiency, and drive innovation. But organizations need to perform increasingly complex analysis on their data (streaming analytics, ad-hoc querying and predictive analytics) in order to get better insights and actionable business intelligence. The growing data volume, speed, and complexity of diverse data formats make legacy tools inadequate or difficult to use.
@@ -171,7 +171,7 @@ Really, there's never been a better time to be a developer!"
     "where": "Room ",
     "author": {
       "name": "Antonio Murdaca",
-      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-murdaca.jpg",
       "twitter": "runc0m"
     },
     "description": "Behind docker run, we'll go through Docker's <strong>advanced features</strong> such as user namespaces, plugins, logging drivers, security profiles and networking."
@@ -183,7 +183,7 @@ Really, there's never been a better time to be a developer!"
     "where": "Room ",
     "author": {
       "name": "Rob Morgan",
-      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-morgan.jpg",
       "twitter": "_rjm_"
     },
     "description": "Phinx is one of the most popular standalone database migration tools. Learn the basic concepts of Phinx with its creator Rob Morgan.<br><br>This presentation will cover adding it to a project, <strong>creating new migrations and then executing them</strong>. You will also be exposed to more advanced features of Phinx and everyday use cases."
@@ -195,7 +195,7 @@ Really, there's never been a better time to be a developer!"
     "where": "Room ",
     "author": {
       "name": "Emil Stolarsky",
-      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-emil.png",
       "twitter": "emilstolarsky"
     },
     "description": "
@@ -212,7 +212,7 @@ This talk will cover the architectural decisions we made and the hard lessons we
     "where": "Room ",
     "author": {
       "name": "Vincenzo Germano",
-      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-vincenzo.jpg",
       "twitter": ""
     },
     "description": ""
@@ -224,7 +224,7 @@ This talk will cover the architectural decisions we made and the hard lessons we
     "where": "Room ",
     "author": {
       "name": "Roberto Franchini",
-      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-franchini.jpg",
       "twitter": "robfrankie"
     },
     "description": "NoSQL claim was to use the right database model for the right domain. Bad news, in most cases a single database model is not enough!
@@ -241,7 +241,7 @@ Benefits and compromises of this approach along with real world use cases will a
     "where": "Room ",
     "author": {
       "name": "Jessica Tibaldi",
-      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-jessica.jpg",
       "twitter": "_jetiba"
     },
     "description": "Azure IoT Hub is a scalable, multi-tenant cloud platform that includes an IoT device registry, data storage, and security. It also provides a service interface to support IoT application development.<br><br>
@@ -255,7 +255,7 @@ Benefits and compromises of this approach along with real world use cases will a
     "where": "Room ",
     "author": {
       "name": "Gianluca Arbezzano",
-      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-gianarb.jpg",
       "twitter": "gianarb"
     },
     "description": "Thank to cloud computing to split processes on different machines now is very easy, during this talk I will share an experience made in Corley Cloud with the Zend Framework Core Team <strong>to split all Zend Framework's git history in different isolated components</strong> (one of the main feature of ZF3).
@@ -269,7 +269,7 @@ Benefits and compromises of this approach along with real world use cases will a
     "where": "Room 500",
     "author": {
       "name": "Walter Dal Mut",
-      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-wdalmut.jpg",
       "twitter": "walterdalmut"
     },
     "description": "The final rush to the perfect development. Connect your <strong>local development to cloud services</strong> with continuous delivery services and techniques in order to reduce time to market and engage application availability. Tools and strategies over different cloud providers and pay as you go models"
