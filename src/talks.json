@@ -1,0 +1,277 @@
+[
+  {
+    "id": 2001,
+    "title": "Rise of the Machines: Automate your Development",
+    "when": "09:40",
+    "where": "Room 500",
+    "author": {
+      "name": "Sven Peters",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "twitter": "svenpet"
+    },
+    "description": "When we talk about automation in software development, we immediately think of automated builds and deployments.  We may also be using scripts to help make our daily work easier. But this is really just the beginning of the rise of the machines.<br><br>I show you how leading developers in our industry are using <strong>open source and commercial tools for automating</strong> much more: "robots" for monitoring production servers, updating issues, supporting customers, reviewing code, setting up laptops..."
+  },
+  {
+    "id": 2002,
+    "title": "Building Event-driven Serverless Applications",
+    "when": "10:25",
+    "where": "Room 500",
+    "author": {
+      "name": "Danilo Poccia",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "twitter": "danilop"
+    },
+    "description": "We built event-driven user interfaces for decades. What about bringing the same approach to mobile, web, and IoT backend applications? You have to understand how data flows and what is the propagation of changes, using reactive programming techniques. You can focus on the core functionalities to build and the relationships among the resources you use. Your application behaves similarly to a “spreadsheet”, where depending resources are updated automatically when something “happens”, and is decomposed into <strong>scalable microservices without having to manage the infrastructure</strong>.<br><br>The resulting architecture is efficient and cost effective to run on AWS and managing availability, scalability and security becomes part of the implementation itself."
+  },
+  {
+    "id": 2003,
+    "title": "The internet is a Computer",
+    "when": "11:30",
+    "where": "Room 500",
+    "author": {
+      "name": "Aanand Prasad",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "twitter": "AanandPrasad"
+    },
+    "description": "Computers have been shrinking and multiplying in number for decades now, and with this change has come an accompanying increase in the architectural complexity of both infrastructure and the software which runs on it. This is silly: a computer is just a thing for running processes, and there should be little to no cognitive switching whether you’re running something on a single laptop or a thousand globally-distributed machines.<br><br>I’m going to show you how <strong>container technology</strong> and open-source software is rapidly closing this gap, moving us toward a world where the Internet is just another computer - a ridiculously big one."
+  },
+  {
+    "id": 2004,
+    "title": "Google Cloud Vision API:<br>What a great time to be a developer!",
+    "when": "12:00",
+    "where": "Room 500",
+    "author": {
+      "name": "Alexis Moussine-Pouchkine",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "twitter": "alexismp"
+    },
+    "description": "With everything that the Cloud has to offer nowadays it's really never been more exciting to be a developer.
+We've had virtualized datacenters for a while now and these were great to get resources on demand, but an actual elastic global cloud is what we're starting to see emerge. So whether you are a startup CTO, a developer, or or an architect, you now have everything at you fingertips to test new ideas, to fail fast, to iterate, and to succeed. You can now scale your apps and data without having to rethink your architecture. You have open source technologies such as containers and Kubernetes to define workloads that can run in a public cloud, on premise, or in a hybrid model with no lock-in and yet an abstraction level that allows you to focus on your application, not on the underlying infrastructure.<br><br>And finally Google is working hard on making <strong>machine learning accessible to all</strong> and we'll see how the Google Cloud Vision API is opening up an entire new class of opportunities for application developers.
+Really, there's never been a better time to be a developer!"
+  },
+  {
+    "id": 2005,
+    "title": "Awesome logging infrastructure using the Elastic stack",
+    "when": "12:30",
+    "where": "Room 500",
+    "author": {
+      "name": "Alexander Reelsen",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "twitter": "spinscale"
+    },
+    "description": "The Elastic stack consisting of Elasticsearch, Logstash, Kibana and Beats offers easy-to-use components to ingest, parse, analyze and visualize your data.<br><br>In this talk we will focus on the aspect of log files, and in addition to the already known capabilities of the ELK stack new features in Elasticsearch <strong>simplifying your logging life</strong> and the relatively new Beats and their respective implementations will be covered as well."
+  },
+  {
+    "id": 2006,
+    "title": "The uncloud: getting to know Service Workers",
+    "when": "14:00",
+    "where": "Room ",
+    "author": {
+      "name": "Marco Cedaro",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "twitter": "cedmax"
+    },
+    "description": "The cloud changed the way we think about our services, how we scale them, how we deploy them. But what happens when there isn't one? Is your web client ready to deal with a down or a loss of connectivity?
+    <br><br>This talk will explore reasons, the awkward first steps with application cache and the current <strong>state of art of offline for web application</strong>."
+  },
+  {
+    "id": 2007,
+    "title": "The road to a <br>Service Oriented Architecture (SOA) and a message based infrastructure",
+    "when": "14:00",
+    "where": "Room ",
+    "author": {
+      "name": "Mauro Servienti",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "twitter": "mauroservienti"
+    },
+    "description": "One of the options on the table when implementing a Service Oriented Architecture (SOA) is based on messages and an enterprise service bus (ESB), this talk will introduce messaging basic concepts, drive you through the basic <strong>SOA building blocks</strong>, and will connect the dots between the technology and the architectural principles, analyzing advantages and issues we may face when choosing this option."
+  },
+  {
+    "id": 2008,
+    "title": "Connecting the Unconnected: IoT Made Simple",
+    "when": "14:00",
+    "where": "Room ",
+    "author": {
+      "name": "Max Amordeluso",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "twitter": "maxamorde"
+    },
+    "description": "Connecting physical devices to the cloud can enhance the user experience. AWS IoT is a new managed service that enables Internet-connected things (sensors, actuators, devices, and applications) to easily and securely interact with each other and the cloud.<br><br>In this session, we will discuss how constrained devices can send data to the cloud and receive commands back to the device. Devices can securely connect using <strong>MQTT, HTTP, Websockets protocols</strong> and developers can leverage several features of AWS IoT such as the Rules Engine and Thing Shadows to quickly and easily build a real connected product."
+  },
+  {
+    "id": 2009,
+    "title": "Build a Python environment on cloud with Vagrant",
+    "when": "14:30",
+    "where": "Room ",
+    "author": {
+      "name": "Alessio Rocchi",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "twitter": "alessiorocchi"
+    },
+    "description": "If we talk about continuous integration and deployment automation, we can consider Vagrant as a good option in order to automate the CI build process, create a virtual environment which run tests suite and build after having made changes.
+
+<br><br>Moreover, Vagrant  also allows the user to <strong>fast deploy</strong> development environments using Vagrantfiles (which implement their specific syntax): this way, the user will be able to smoothly customize the setup spec, and easily interact with public cloud providers."
+  },
+  {
+    "id": 2010,
+    "title": "Stack Overflow behind the scenes: how it's made",
+    "when": "14:30",
+    "where": "Room ",
+    "author": {
+      "name": "Oded Coster",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "twitter": "odedcoster"
+    },
+    "description": "Stack Overflow serves nearly 100 million unique visitors a month, serving a page in 40ms using 9 web servers and 2 database servers.<br><br>In this talk I will cover <strong>how we develop, build, configure, deploy, monitor and maintain</strong> the site."
+  },
+  {
+    "id": 2011,
+    "title": "Develop and deploy Internet of Things applications over http",
+    "when": "14:30",
+    "where": "Room ",
+    "author": {
+      "name": "Francesco Ficili",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "twitter": ""
+    },
+    "description": "The natural evolution of technology is to put the connectivity inside things, so that in the future will be possible to access basically everything from the network.<br><br>But all this power is useless if  not supported by an equally accessible development technology. So let's discover how a graphically oriented enviroment could be used to make it <strong>easy to develop the embedded side of an IoT application</strong>."
+  },
+  {
+    "id": 2012,
+    "title": "Real-Time Web Apps and PHP: what are your options?",
+    "when": "15:30",
+    "where": "Room ",
+    "author": {
+      "name": "Phil Leggetter",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "twitter": "leggetter"
+    },
+    "description": "Real-time is becoming the lifeblood of applications. Facebook, Twitter, Uber, Google Docs and many more apps have increased user expectation to demand real-time features. Features such as Notifications, activity streams, real-time data visualisations, chat or collaborative experiences instantly keep users up to date and enable them to work much more effectively. So, how do you build these sorts of features with PHP and PHP frameworks?
+
+    <br><br>This talk will cover a number of options you have with <strong>PHP when building real-time features</strong> within your apps, showing the code and demonstrating each and the pros and cons of each to help choose which is the best solution for you.
+"
+  },
+  {
+    "id": 2013,
+    "title": "Get value from your data",
+    "when": "15:30",
+    "where": "Room ",
+    "author": {
+      "name": "Danilo Poccia",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "twitter": "danilop"
+    },
+    "description": "Data analysis is being used to transform businesses, increase efficiency, and drive innovation. But organizations need to perform increasingly complex analysis on their data (streaming analytics, ad-hoc querying and predictive analytics) in order to get better insights and actionable business intelligence. The growing data volume, speed, and complexity of diverse data formats make legacy tools inadequate or difficult to use.
+      <br><br>The AWS Cloud has a comprehensive portfolio of analytics services to <strong>help you process data of any volume</strong> and automate how you put that data to work for your organization. In this session we’ll see how to put those services at work on structured, unstructured and real-time data"
+  },
+  {
+    "id": 2014,
+    "title": "Docker: advanced features",
+    "when": "15:30",
+    "where": "Room ",
+    "author": {
+      "name": "Antonio Murdaca",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "twitter": "runc0m"
+    },
+    "description": "Behind docker run, we'll go through Docker's <strong>advanced features</strong> such as user namespaces, plugins, logging drivers, security profiles and networking."
+  },
+  {
+    "id": 2015,
+    "title": "Migrating your Database with Phinx",
+    "when": "16:00",
+    "where": "Room ",
+    "author": {
+      "name": "Rob Morgan",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "twitter": "_rjm_"
+    },
+    "description": "Phinx is one of the most popular standalone database migration tools. Learn the basic concepts of Phinx with its creator Rob Morgan.<br><br>This presentation will cover adding it to a project, <strong>creating new migrations and then executing them</strong>. You will also be exposed to more advanced features of Phinx and everyday use cases."
+  },
+  {
+    "id": 2016,
+    "title": "Testing at Scale with Docker",
+    "when": "16:00",
+    "where": "Room ",
+    "author": {
+      "name": "Emil Stolarsky",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "twitter": "emilstolarsky"
+    },
+    "description": "
+      It's impossible to iterate quickly on a product without a reliable, responsive CI system. At a certain point, traditional CI providers don't cut it. Last summer, Shopify outgrew its CI solution and was plagued by 20 minute build times, flakiness, and waning trust from developers in CI statuses.
+
+Now <strong>our new CI builds Shopify in under 5 minutes</strong>, 700 times a day, spinning up 30,000 docker containers in the process.<br><br>
+This talk will cover the architectural decisions we made and the hard lessons we learned so you can design a similar build system to solve your own needs.
+    "
+  },
+  {
+    "id": 2017,
+    "title": "MQTT for IOT Application with  LUA scripting",
+    "when": "16:00",
+    "where": "Room ",
+    "author": {
+      "name": "Vincenzo Germano",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "twitter": ""
+    },
+    "description": ""
+  },
+  {
+    "id": 2018,
+    "title": "OrientDB<br>the 2nd generation of (MultiModel) NoSQL",
+    "when": "16:30",
+    "where": "Room ",
+    "author": {
+      "name": "Roberto Franchini",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "twitter": "robfrankie"
+    },
+    "description": "NoSQL claim was to use the right database model for the right domain. Bad news, in most cases a single database model is not enough!
+
+In last years NoSQL experienced a huge upward trend, offering new data models (Document, Graph, Key-Value...) to solve problems where old RDBMS failed. Now people who have chosen NoSQL as an architecture component, realize that a single data model (even when richer that relational), is not enough for average needs.
+
+In this lecture, we will discuss why <strong>graph databases are at the heart of the multi-model revolution</strong> and why we're approaching the end of NoSQL's fragmented ecosystem where customers are forced to use multiple tools in their architectures.<br><br>
+Benefits and compromises of this approach along with real world use cases will also be shared."
+  },
+  {
+    "id": 2019,
+    "title": "Connecting your device to the cloud: How to process IoT Hub device messages",
+    "when": "16:30",
+    "where": "Room ",
+    "author": {
+      "name": "Jessica Tibaldi",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "twitter": "_jetiba"
+    },
+    "description": "Azure IoT Hub is a scalable, multi-tenant cloud platform that includes an IoT device registry, data storage, and security. It also provides a service interface to support IoT application development.<br><br>
+    In this talk we are going to show how Azure IoT services helps you securely <strong>connect millions of Linux, iOS, Android, Windows, and real-time operating system (RTOS) devices</strong> to reliably send telemetry and receive commands from your application back-end in the cloud. We will present an example of how to connect a device to Azure IoT Hub. We will show how to send messages to Azure data and storage services for future analysis or to services like Azure Stream Analytics in order to analyze them in real-time. Finally we will integrate Azure Stream Analytics with Microsoft PowerBI to visualize the results.
+    "
+  },
+  {
+    "id": 2020,
+    "title": "A ZF story: parallel made easy",
+    "when": "16:30",
+    "where": "Room ",
+    "author": {
+      "name": "Gianluca Arbezzano",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "twitter": "gianarb"
+    },
+    "description": "Thank to cloud computing to split processes on different machines now is very easy, during this talk I will share an experience made in Corley Cloud with the Zend Framework Core Team <strong>to split all Zend Framework's git history in different isolated components</strong> (one of the main feature of ZF3).
+    <br><br>I chose this case study because it helps me to explain as it is easy with AWS, a bit of PHP and bash split an history made of other 20.000 commits.
+  "
+  },
+  {
+    "id": 2021,
+    "title": "The Road to the Cloud:<br>continuous delivery and deployment",
+    "when": "17:15",
+    "where": "Room 500",
+    "author": {
+      "name": "Walter Dal Mut",
+      "avatar": "http://2016.cloudconf.it/assets/images/speaker-.jpg",
+      "twitter": "walterdalmut"
+    },
+    "description": "The final rush to the perfect development. Connect your <strong>local development to cloud services</strong> with continuous delivery services and techniques in order to reduce time to market and engage application availability. Tools and strategies over different cloud providers and pay as you go models"
+  },
+]
